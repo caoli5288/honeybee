@@ -1,0 +1,10 @@
+dataSource:
+  url: http://localhost:8086
+  database: honeybee
+  userName: root
+  password: pass
+
+collect:
+  enable: false
+  interval: 10
+  tag: sample

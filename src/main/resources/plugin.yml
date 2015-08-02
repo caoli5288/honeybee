@@ -1,0 +1,6 @@
+name: Honeybee
+main: com.mengcraft.honeybee.Main
+version: 0.1
+author: mengcraft.com
+
+depend: [InfluxDB]
