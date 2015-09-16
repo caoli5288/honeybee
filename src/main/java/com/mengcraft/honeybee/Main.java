@@ -21,7 +21,7 @@ public class Main extends JavaPlugin {
             db.createDatabase();
             db.setAsynchronous(true);
             //
-            new Collector(this, db).register();
+            new Collector().bind(this, db);
         }
     }
     
